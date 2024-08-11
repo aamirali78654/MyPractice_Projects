@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
         img2 = findViewById(R.id.img2);
 
-        //================Animation Scale and rotate both connect-----
+        //++++++++++++++++++Animation Scale and rotate both connect++++++++++++++++++
         Animation ani = AnimationUtils.loadAnimation(this,R.anim.blink);
         img2.startAnimation(ani);
 
