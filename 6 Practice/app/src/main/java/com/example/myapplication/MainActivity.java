@@ -19,8 +19,9 @@ import com.example.myapplication.One.OneBaseAdapter;
 
 public class MainActivity extends AppCompatActivity {
     ListView list_view;
-    String[] str = {"Car","Catc","Dogs","Dogs","Dolphin","Ducklens","Hedgehog","Fox","TabbyCat","Car","Catc","Dogs","Dogs","Dolphin","Ducklens","Hedgehog","Fox","TabbyCat"};
+    String[] str = {"Car","Catc","Dogs","Dogs","Dolphin","Ducklens","Hedgehog","Fox","TabbyCat","Car","Catc","Dogs","Dogs","Dolphin","Ducklens","Hedgehog","Fox","TabbyCat","Car","Catc","Dogs","Dogs","Dolphin","Ducklens","Hedgehog","Fox","TabbyCat"};
     int[] image_arr ={R.drawable.cat,R.drawable.catc,R.drawable.dogs,R.drawable.dogs,R.drawable.dolphin,
+            R.drawable.ducklens,R.drawable.hedgehog,R.drawable.pexels,R.drawable.tabbycat,R.drawable.cat,R.drawable.catc,R.drawable.dogs,R.drawable.dogs,R.drawable.dolphin,
             R.drawable.ducklens,R.drawable.hedgehog,R.drawable.pexels,R.drawable.tabbycat,R.drawable.cat,R.drawable.catc,R.drawable.dogs,R.drawable.dogs,R.drawable.dolphin,
                       R.drawable.ducklens,R.drawable.hedgehog,R.drawable.pexels,R.drawable.tabbycat};
 
