@@ -10,10 +10,9 @@
 
 
     <ListView
-        android:padding="10dp"
         android:layout_margin="20dp"
         android:divider="@color/black"
-        android:dividerHeight="3dp"
+        android:dividerHeight="2dp"
         android:id="@+id/list_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
