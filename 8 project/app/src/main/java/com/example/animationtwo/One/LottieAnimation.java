@@ -17,10 +17,20 @@ public class LottieAnimation extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_lottie_animation);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
+
+        //-----------------------------------------------------
+
+        LottieAnimationView animationView = findViewById(R.id.lottie_animation_view);
+
+// Play animation
+        animationView.playAnimation();
+
+// Pause animation
+        animationView.pauseAnimation();
+
+// Stop animation
+        animationView.cancelAnimation();
+
+
     }
 }
