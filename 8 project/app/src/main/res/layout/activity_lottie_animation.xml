@@ -16,13 +16,4 @@
         app:civ_border_width="2dp"
         app:civ_border_color="#FF000000"/>
 
-    <com.airbnb.lottie.LottieAnimationView
-        app:lottie_url="https://assets10.lottiefiles.com/packages/lf20_jcikwtux.json"
-        android:id="@+id/animationView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:lottie_autoPlay="true"
-        app:lottie_loop="true"
-        tools:ignore="MissingClass" />
-
 </LinearLayout>
