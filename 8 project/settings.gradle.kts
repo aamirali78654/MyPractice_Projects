@@ -6,8 +6,12 @@ pluginManagement {
                 includeGroupByRegex("com\\.google.*")
                 includeGroupByRegex("androidx.*")
             }
+
         }
         mavenCentral()
+        maven {
+            url ("https://jcenter.bintray.com")
+        }
         gradlePluginPortal()
     }
 }
@@ -16,8 +20,14 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven {
+            url ("https://jcenter.bintray.com")
+        }
     }
 }
 
 rootProject.name = "AnimationTwo"
-include(":app")
+include("app").invoke {
+    // Some configuration
+}
+

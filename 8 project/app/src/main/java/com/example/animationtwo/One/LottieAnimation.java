@@ -18,19 +18,5 @@ public class LottieAnimation extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_lottie_animation);
 
-        //-----------------------------------------------------
-
-        LottieAnimationView animationView = findViewById(R.id.lottie_animation_view);
-
-// Play animation
-        animationView.playAnimation();
-
-// Pause animation
-        animationView.pauseAnimation();
-
-// Stop animation
-        animationView.cancelAnimation();
-
-
     }
 }
