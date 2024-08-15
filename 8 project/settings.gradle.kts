@@ -9,9 +9,6 @@ pluginManagement {
 
         }
         mavenCentral()
-        maven {
-            url ("https://jcenter.bintray.com")
-        }
         gradlePluginPortal()
     }
 }
@@ -20,9 +17,6 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven {
-            url ("https://jcenter.bintray.com")
-        }
     }
 }
 
