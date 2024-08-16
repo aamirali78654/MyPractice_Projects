@@ -29,7 +29,15 @@ public class MainActivity extends AppCompatActivity {
         arr_list.add(new animals(R.drawable.pexels,"Fox"));
         arr_list.add(new animals(R.drawable.photo,"photo"));
         arr_list.add(new animals(R.drawable.tabbycat,"tabbyCat"));
-        //-------------------------------------------------------------->>
+        arr_list.add(new animals(R.drawable.cat,"cat"));
+        arr_list.add(new animals(R.drawable.catc,"catc"));
+        arr_list.add(new animals(R.drawable.dogs,"dogs"));
+        arr_list.add(new animals(R.drawable.dolphin,"dolphin"));
+        arr_list.add(new animals(R.drawable.hedgehog,"hedghog"));
+        arr_list.add(new animals(R.drawable.pexels,"Fox"));
+        arr_list.add(new animals(R.drawable.photo,"photo"));
+        arr_list.add(new animals(R.drawable.tabbycat,"tabbyCat"));
+        //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>>
         Array_Adapter arr_adapter = new Array_Adapter(MainActivity.this,R.layout.ui_array_adapter_threefile ,arr_list);
         list_view.setAdapter(arr_adapter);
 
