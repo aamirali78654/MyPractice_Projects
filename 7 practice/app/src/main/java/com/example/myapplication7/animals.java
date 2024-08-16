@@ -11,6 +11,7 @@ public class animals
            this.img_view = img_view;
 
        }
+       //===========get values in other java files including data==================>>
        public int getimg()
        {
            return img_view;
