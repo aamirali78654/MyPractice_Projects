@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="namehint">Enter Name</string>
+    <string name="app_password">Password</string>
+    <string name="btn_click">Click Now</string>
+
+</resources>
