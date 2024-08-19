@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
-  //-------------------fragment layout call in coding part---------------->>>
+  //-------------------fragment layout call in coding part MainActivity-------------->>>
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction= fragmentManager.beginTransaction();
         fragmentTransaction.add(R.id.fragment_main, new FragmentOne());
