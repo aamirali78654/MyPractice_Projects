@@ -41,5 +41,5 @@
         android:textSize="25sp"
         android:padding="10dp"
        android:background="@drawable/btn_corner"
-        android:text="Registers" />
+        android:text="Register" />
 </LinearLayout>
