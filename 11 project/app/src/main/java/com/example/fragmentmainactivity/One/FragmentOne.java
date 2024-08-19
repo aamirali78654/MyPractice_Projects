@@ -24,7 +24,7 @@ public class FragmentOne extends Fragment {
        Button button_login;
        v = inflater.inflate(R.layout.fragment_one, container, false);
        button_login = (Button) v.findViewById(R.id.button_login);
-
+//================this coding part show the connect the fragment One========>>>
        button_login.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View view) {
