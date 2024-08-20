@@ -16,7 +16,7 @@ public class MyAdapter extends FragmentStateAdapter
          }
 
          public MyAdapter(FragmentManager supportFragmentManager, Lifecycle lifecycle) {
-             super(supportFragmentManager  ,lifecycle);
+             super(supportFragmentManager ,lifecycle);
          }
 
          @NonNull
