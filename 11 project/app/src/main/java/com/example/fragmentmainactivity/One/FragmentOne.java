@@ -17,6 +17,7 @@ import com.example.fragmentmainactivity.R;
 
 public class FragmentOne extends Fragment {
        View v;
+
    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
 
