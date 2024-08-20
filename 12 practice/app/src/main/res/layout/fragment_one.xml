@@ -14,6 +14,6 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:textColor="@color/white"
-        android:text="fragment one" />
+        android:text="fragment_one" />
 
 </LinearLayout>
