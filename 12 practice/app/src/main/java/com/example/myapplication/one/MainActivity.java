@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
         view_pager2 = findViewById(R.id.view_pager2);
-
+//===================MyAdapter===========================>>>>>
      MyAdapter myAdapter = new MyAdapter(getSupportFragmentManager(), getLifecycle());
      view_pager2.setAdapter(myAdapter);
     }
