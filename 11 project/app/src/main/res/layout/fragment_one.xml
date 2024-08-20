@@ -29,17 +29,4 @@
         android:text="click here to new registers id!" />
 
 
-
-    <Button
-        android:id="@+id/button_login"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:textColor="#F3031F"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:textSize="25sp"
-        android:padding="10dp"
-       android:background="@drawable/btn_corner"
-        android:text="Register" />
 </LinearLayout>
