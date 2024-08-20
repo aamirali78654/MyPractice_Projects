@@ -23,6 +23,7 @@ public class FragmentTwo extends Fragment {
         v = inflater.inflate(R.layout.fragment_two, container, false);
 
         // Inflate the layout for this fragment
+
         return v;
     }
 }
