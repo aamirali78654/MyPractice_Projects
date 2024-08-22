@@ -10,6 +10,7 @@ public class Animals
               this.img = img;
               this.name = name;
           }
+          //===============================================>>
           public int getimg()
           {
               return img;
