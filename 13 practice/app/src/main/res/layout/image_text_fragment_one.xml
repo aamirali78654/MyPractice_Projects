@@ -5,6 +5,8 @@
     android:layout_height="wrap_content"
     android:background="#D8CEE6"
     android:paddingLeft="10dp">
+
+    <!--circle image view and text view -->
     <de.hdodenhof.circleimageview.CircleImageView
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/profile_image"
