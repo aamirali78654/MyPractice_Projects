@@ -38,7 +38,7 @@ public class MyAdapterA extends ArrayAdapter
           {
               ImageView image_view;
               TextView text_view;
-
+         //=================animals class refrence==========>>>
               Animals an = (Animals) al.get(position);
               View v = lf.inflate(R.layout.image_text_fragment_one, null);
               image_view = v.findViewById(R.id.profile_image);
