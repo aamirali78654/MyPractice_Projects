@@ -1,4 +1,4 @@
-package com.example.bottomnavigationv.One.fragment;
+package com.example.bottomnavigationv.One;
 
 import android.os.Bundle;
 
