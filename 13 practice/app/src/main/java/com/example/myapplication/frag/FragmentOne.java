@@ -26,6 +26,7 @@ public class FragmentOne extends Fragment {
         ArrayList al;
         View view = inflater.inflate(R.layout.fragment_one, container, false);
         list_view = (ListView) view.findViewById(R.id.list_view);
+        //==========ArrayList name and images to sign===========>>
         al = new ArrayList();
         al.add(new Animals(R.drawable.cat,"Cat"));
         al.add(new Animals(R.drawable.catc,"Catc"));
