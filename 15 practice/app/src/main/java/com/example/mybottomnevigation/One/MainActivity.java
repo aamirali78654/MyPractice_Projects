@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+    //========== floating action button===============>>>
     public void floatingbtn(View view)
     {
         Toast.makeText(this, "you clicked FLoating Button!!", Toast.LENGTH_SHORT).show();
