@@ -40,7 +40,7 @@ public class MyRecycler extends RecyclerView.Adapter<MyRecycler.MyRecyclerView>
     public int getItemCount() {
         return arr_imgR.length;
     }
-//============create RecyclerView Class by View_Holder=========>>>
+//============create RecyclerView Class by View_Holder ===>>>
     class MyRecyclerView extends RecyclerView.ViewHolder
     {
         private ImageView imageView;
