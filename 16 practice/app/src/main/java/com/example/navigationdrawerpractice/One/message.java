@@ -13,8 +13,9 @@ import com.example.navigationdrawerpractice.R;
 public class message extends Fragment {
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
+    {
+        //=================message====================>>
         return inflater.inflate(R.layout.fragment_message, container, false);
     }
 }
