@@ -47,15 +47,15 @@ public class MainActivity extends AppCompatActivity {
     {
         String phone = edit_text.getText().toString();
 
-       // ==============Permission not required===========>>
-        Intent intent = new Intent(Intent.ACTION_DIAL);
-        intent.setData(Uri.parse("tel:"+phone));
-        startActivity(intent);
-//
-//        //=========permission required====================>>>
-//        Intent intent = new Intent(Intent.ACTION_CALL);
+//       // ==============Permission not required===========>>
+//        Intent intent = new Intent(Intent.ACTION_DIAL);
 //        intent.setData(Uri.parse("tel:"+phone));
 //        startActivity(intent);
+//
+        //=========permission required====================>>>
+        Intent intent = new Intent(Intent.ACTION_CALL);
+        intent.setData(Uri.parse("tel:"+phone));
+        startActivity(intent);
 
     }
 
