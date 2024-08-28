@@ -8,13 +8,13 @@
     tools:context=".One.MainActivity"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#B57777">
+    android:background="#C6DDE8">
 
     <EditText
         android:id="@+id/edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter your Number"
+        android:hint="Enter your Number!"
         android:layout_margin="20dp"
         android:padding="10dp"
         android:ems="10"
