@@ -34,7 +34,7 @@ public class Gallery extends AppCompatActivity {
         imageView = (ImageView) findViewById(R.id.imageView);
 
     }
-    //------------Button method for Camera------------------>>
+    //------------Button method for Camera----------------->>
     public void cameraButton(View view)
     {
         if(ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA ) == PackageManager.PERMISSION_GRANTED) {
