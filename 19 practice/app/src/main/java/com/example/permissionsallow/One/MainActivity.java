@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
 //        intent.setData(Uri.parse("tel:"+phone));
 //        startActivity(intent);
 //
-        //=========permission required==================>>>
+        //=====++====permission required==================>>>
         Intent intent = new Intent(Intent.ACTION_CALL);
         intent.setData(Uri.parse("tel:"+phone));
         startActivity(intent);
