@@ -18,6 +18,7 @@ ImageView imageView ;
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
+        //===============image click Listener=======================>>>
         imageView = findViewById(R.id.imageView5);
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
