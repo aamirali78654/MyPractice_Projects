@@ -1,7 +1,9 @@
 package com.example.myapplication;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -17,6 +19,12 @@ ImageView imageView ;
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
         imageView = findViewById(R.id.imageView5);
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this, "you clicked image!! ", Toast.LENGTH_SHORT).show();
+            }
+        });
 
     }
 }
