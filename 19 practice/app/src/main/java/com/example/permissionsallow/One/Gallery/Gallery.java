@@ -46,7 +46,7 @@ public class Gallery extends AppCompatActivity {
             ActivityCompat.requestPermissions(this,new String[]{Manifest.permission.CAMERA},REQUEST_CAMERA_CODE);
         }
     }
-    //-------------Button Method FOR Gallery ---------------->>
+    //-------------Button Method FOR Gallery ------------->>
     public void ClickGallery(View view)
     {
         Intent intent = new Intent();
