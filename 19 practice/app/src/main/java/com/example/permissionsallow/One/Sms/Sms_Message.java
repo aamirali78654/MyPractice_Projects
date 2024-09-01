@@ -40,8 +40,8 @@ public class Sms_Message extends AppCompatActivity {
         SmsManager smsManager = SmsManager.getDefault();
         smsManager.sendTextMessage(num,null,sms_m,null,null);
     }
-  //======================================================================================>>>
-  //===================Button OnClick View===============================================>>>
+  //=====================================================================>>>
+  //===================Button OnClick View================================>>>
     public void btn_click(View view)
     {
         if(ContextCompat.checkSelfPermission(Sms_Message.this , Manifest.permission.SEND_SMS) == PackageManager.PERMISSION_GRANTED)
