@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         assignId(btn_c , R.id.btn_c);
 
     }
-    //============AssignId Material Button================>>>
+    //==========AssignId Material Button==============>>>
     void assignId(MaterialButton btn ,int id) {
         btn = findViewById(id);
         btn.setOnClickListener(this);
