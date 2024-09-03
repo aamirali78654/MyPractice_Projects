@@ -14,8 +14,7 @@
         android:textSize="50sp"
         android:textColor="@color/black"
         android:layout_above="@+id/solution_tv"
-        android:textAlignment="textEnd"
-        android:layout_margin="16dp"/>
+        android:textAlignment="textEnd"/>
 
     <TextView
         android:id="@+id/solution_tv"
@@ -36,7 +35,7 @@
         android:layout_alignParentBottom="true"
         android:background="#10253C"
         android:orientation="vertical"
-        android:paddingVertical="20dp"
+        android:paddingVertical="16dp"
         >
 
         <LinearLayout
