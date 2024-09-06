@@ -18,5 +18,4 @@
         android:textStyle="bold"
         android:fontFamily="serif"
         android:gravity="center"/>
-
 </LinearLayout>
