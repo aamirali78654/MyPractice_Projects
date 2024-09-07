@@ -87,6 +87,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
     String getResult(String data)
     {
-        return "Calculat";
+        return "Calculator";
     }
 }
