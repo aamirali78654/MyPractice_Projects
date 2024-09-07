@@ -7,7 +7,6 @@ import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-    EditText editText , editText1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
