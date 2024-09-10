@@ -30,10 +30,11 @@ public class Login extends AppCompatActivity {
         log_password = (EditText) findViewById(R.id.log_password);
         String log_e = log_email.getText().toString();
         String log_p = log_password.getText().toString();
-
+    //----------Register method include --------->>
         Register r = new Register();
         String email =  r.reg_email.getText().toString();
         String password = r.reg_password.getText().toString();
+
         if(log_e == email && log_p == password)
         {
             Intent intent = new Intent(getApplicationContext(), Profile.class);
