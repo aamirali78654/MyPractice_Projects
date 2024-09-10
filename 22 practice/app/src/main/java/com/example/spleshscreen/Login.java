@@ -23,6 +23,7 @@ public class Login extends AppCompatActivity {
 
 
     }
+    //----------login Click event method------------------>>>
     public void loginNow(View view)
     {
         log_email = (EditText) findViewById(R.id.log_email);
