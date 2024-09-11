@@ -16,9 +16,8 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_login);
-
-
     }
+
     //----------login Click event method------------->>>
     public void loginNow(View view)
     {
