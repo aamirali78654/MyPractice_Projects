@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity
         main_drawer_layout.addDrawerListener(toggle);
         toggle.syncState();
 
-      //============Fragments usage in this line=======>>>
+      //======Fragments usage in this line=======>>>
 
         navigation_view.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
